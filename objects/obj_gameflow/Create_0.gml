@@ -6,5 +6,5 @@ globalvar tile_height;
 tile_width=32;
 tile_height=32;
 //Isometric
-tile_width=32;
-tile_height=16;
+tile_width=64;
+tile_height=32;

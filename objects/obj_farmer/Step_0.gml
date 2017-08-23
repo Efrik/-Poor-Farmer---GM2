@@ -2,11 +2,11 @@
 // You can write your code in this editor
 
 //movement
-if keyboard_check(vk_right){x+=1;point="right"};
-if keyboard_check(vk_left){x-=1point="left"};
-if keyboard_check(vk_up){y-=1;point="up"};
-if keyboard_check(vk_down){y+=1;point="down"};
-
+if keyboard_check(vk_right){x+=3;point="right";subimg_o=8;subimg_f=11;image_speed=5};
+if keyboard_check(vk_left){x-=3;point="left";subimg_o=12;subimg_f=15;image_speed=5};
+if keyboard_check(vk_up){y-=3;point="up";subimg_o=4;subimg_f=7;image_speed=5};
+if keyboard_check(vk_down){y+=3;point="down";subimg_o=0;subimg_f=3;image_speed=5};
+if !keyboard_check(vk_anykey){;image_speed=0}
 //locate character slot (easy square)
 tile_x=x div tile_width;
 tile_y=y div tile_height;
